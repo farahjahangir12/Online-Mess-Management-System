@@ -1,0 +1,168 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('pexels-orlovamaria-4913313.jpg') no-repeat center center/cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(15px) brightness(80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:max-content;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputbox {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 1em;
+    padding: 5px;
+    color: #fff;
+    transition: border-color 0.3s;
+}
+
+    .input-field::placeholder {
+        color: #fff;
+        opacity: 0.5;
+    }
+
+    .input-field:focus {
+        border-color: #ccc;
+    }
+
+.button {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .button:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+.register {
+    font-size: 0.8em;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .register p a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+    }
+
+        .register p a:hover {
+            text-decoration: underline;
+        }
+
+@media screen and (max-width: 480px) {
+    .form-box {
+        width: 90%;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .inputbox {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        height: 30px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+    .nav-item:hover {
+        background-color: #555;
+    }
+
+.nav-left {
+    display: flex;
+}
+
+.nav-right {
+    display: flex;
+}

@@ -1,0 +1,55 @@
+﻿.qtable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.qrow, .qrow1 {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ddd;
+}
+
+.count, .qcell, .optcell, .correctcell {
+    padding: 8px;
+    margin-right: 6px;
+    text-align:center;
+}
+
+.qcell {
+    width: 40%;
+}
+
+.correctcell {
+    margin-right: 0;
+}
+
+.optcell {
+    width: 40%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+    .nav-item:hover {
+        background-color: #555;
+    }
+
+.nav-left {
+    display: flex;
+}
+
+.nav-right {
+    display: flex;
+}
